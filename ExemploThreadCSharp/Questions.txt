@@ -1,0 +1,17 @@
+﻿1 - Explain how multithreading can help with your client application.
+2 - What is the difference between CPU and I/O bound operations ?
+3 - Does using multithreading with the TPL offer the same advantages for your server application ?
+
+4 - You have a lot of items that need to be processed. For each item, you need to perform 
+	a complex calculation. Which technique should you use?
+A.You create a Task for each item and then wait until all tasks are finished.
+B.You use Parallel.For to process all items concurrently.
+C.You use async/await to process all items concurrently.
+D.You add all items to a BlockingCollection and process them on a thread created by the Thread class.
+
+5 - You are creating a complex query that doesn’t require any particular order and you want to 
+	run it in parallel. Which method should you use?
+A.AsParallel
+B.AsSequential
+C.AsOrdered
+D.WithDegreeOfParallelism

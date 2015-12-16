@@ -1,0 +1,5 @@
+c:\users\felipeaa\documents\visual studio 2012\Projects\ExemploThreadCSharp\ExemploThreadCSharp\bin\Release\ExemploThreadCSharp.exe.config
+c:\users\felipeaa\documents\visual studio 2012\Projects\ExemploThreadCSharp\ExemploThreadCSharp\bin\Release\ExemploThreadCSharp.exe
+c:\users\felipeaa\documents\visual studio 2012\Projects\ExemploThreadCSharp\ExemploThreadCSharp\bin\Release\ExemploThreadCSharp.pdb
+c:\users\felipeaa\documents\visual studio 2012\Projects\ExemploThreadCSharp\ExemploThreadCSharp\obj\Release\ExemploThreadCSharp.exe
+c:\users\felipeaa\documents\visual studio 2012\Projects\ExemploThreadCSharp\ExemploThreadCSharp\obj\Release\ExemploThreadCSharp.pdb

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1CA6A6F-A7A7-434C-9C87-5112673D4DE7}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExemploThreadCSharp</RootNamespace>
+    <AssemblyName>ExemploThreadCSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CreateImplementEventsCallbacks\Delegate\DelegateContraCovariancia.cs" />
+    <Compile Include="CreateImplementEventsCallbacks\Delegate\DelegateCovariancia.cs" />
+    <Compile Include="CreateImplementEventsCallbacks\Delegate\DelegateCreate.cs" />
+    <Compile Include="CreateImplementEventsCallbacks\Delegate\DelegateMultiCast.cs" />
+    <Compile Include="CreateImplementEventsCallbacks\LambdaExpression\LambdaAction.cs" />
+    <Compile Include="CreateImplementEventsCallbacks\LambdaExpression\LambdaCreate.cs" />
+    <Compile Include="CreateImplementEventsCallbacks\LambdaExpression\LambdaMultiple.cs" />
+    <Compile Include="ImplementExceptions\ExceptionFailFast.cs" />
+    <Compile Include="ImplementExceptions\ExceptionInnerException.cs" />
+    <Compile Include="ImplementExceptions\ExceptionThrow.cs" />
+    <Compile Include="ImplementMultithreading\AsyncAwait\AsyncCreate.cs" />
+    <Compile Include="ImplementMultithreading\Collection\BlockingCollectionCreate.cs" />
+    <Compile Include="ImplementMultithreading\Collection\ConcurrentBagCreate.cs" />
+    <Compile Include="ImplementMultithreading\Collection\ConcurrentDictionaryCreate.cs" />
+    <Compile Include="ImplementMultithreading\Collection\ConcurrentQueueCreate.cs" />
+    <Compile Include="ImplementMultithreading\Collection\ConcurrentStackCreate.cs" />
+    <Compile Include="ImplementMultithreading\Parallels\ParallelCreate.cs" />
+    <Compile Include="ImplementMultithreading\Parallels\ParallelStop.cs" />
+    <Compile Include="ImplementMultithreading\PLinq\PLinqCatch.cs" />
+    <Compile Include="ImplementMultithreading\PLinq\PLinqCreate.cs" />
+    <Compile Include="ImplementMultithreading\PLinq\PLinqForAll.cs" />
+    <Compile Include="ImplementProgramFlow\Foreach.cs" />
+    <Compile Include="ImplementProgramFlow\Goto.cs" />
+    <Compile Include="ImplementProgramFlow\NullCoalescing.cs" />
+    <Compile Include="ImplementProgramFlow\XorCreate.cs" />
+    <Compile Include="ManageMultithreading\CancellingTask\CancellingTaskCreate.cs" />
+    <Compile Include="ManageMultithreading\CancellingTask\ContinueWith.cs" />
+    <Compile Include="ManageMultithreading\Interlocked\InterlockedCreate.cs" />
+    <Compile Include="ManageMultithreading\Lock\LockCreate.cs" />
+    <Compile Include="ManageMultithreading\Volatile\VolatileCreate.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ImplementMultithreading\Helper.cs" />
+    <Compile Include="ImplementMultithreading\Tasks\TaskCreate.cs" />
+    <Compile Include="ImplementMultithreading\Tasks\TaskFac.cs" />
+    <Compile Include="ImplementMultithreading\Tasks\TaskSon.cs" />
+    <Compile Include="ImplementMultithreading\Tasks\TaskWaitAll.cs" />
+    <Compile Include="ImplementMultithreading\Tasks\TaskWaitAny.cs" />
+    <Compile Include="ImplementMultithreading\Threads\ThreadCreate.cs" />
+    <Compile Include="ImplementMultithreading\Threads\ThreadJoin.cs" />
+    <Compile Include="ImplementMultithreading\Threads\ThreadParameter.cs" />
+    <Compile Include="ImplementMultithreading\Threads\ThreadPools.cs" />
+    <Compile Include="ImplementMultithreading\Threads\ThreadPropertyStatic.cs" />
+    <Compile Include="ImplementMultithreading\Threads\ThreadLocal.cs" />
+    <Compile Include="ImplementMultithreading\Threads\ThreadLock.cs" />
+    <Compile Include="ImplementMultithreading\Threads\ThreadStop.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Duvidas.txt" />
+    <Content Include="ImplementExceptions\Anotações.txt" />
+    <Content Include="Questions.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

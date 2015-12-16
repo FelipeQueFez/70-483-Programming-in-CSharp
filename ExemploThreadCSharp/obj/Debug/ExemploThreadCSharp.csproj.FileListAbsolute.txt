@@ -1,0 +1,10 @@
+c:\users\felipeaa\documents\visual studio 2012\Projects\ExemploThreadCSharp\ExemploThreadCSharp\bin\Debug\ExemploThreadCSharp.exe.config
+c:\users\felipeaa\documents\visual studio 2012\Projects\ExemploThreadCSharp\ExemploThreadCSharp\bin\Debug\ExemploThreadCSharp.exe
+c:\users\felipeaa\documents\visual studio 2012\Projects\ExemploThreadCSharp\ExemploThreadCSharp\bin\Debug\ExemploThreadCSharp.pdb
+c:\users\felipeaa\documents\visual studio 2012\Projects\ExemploThreadCSharp\ExemploThreadCSharp\obj\Debug\ExemploThreadCSharp.exe
+c:\users\felipeaa\documents\visual studio 2012\Projects\ExemploThreadCSharp\ExemploThreadCSharp\obj\Debug\ExemploThreadCSharp.pdb
+C:\Users\felipeaa\Desktop\New folder\ExemploThreadCSharp\ExemploThreadCSharp\bin\Debug\ExemploThreadCSharp.exe.config
+C:\Users\felipeaa\Desktop\New folder\ExemploThreadCSharp\ExemploThreadCSharp\bin\Debug\ExemploThreadCSharp.exe
+C:\Users\felipeaa\Desktop\New folder\ExemploThreadCSharp\ExemploThreadCSharp\bin\Debug\ExemploThreadCSharp.pdb
+C:\Users\felipeaa\Desktop\New folder\ExemploThreadCSharp\ExemploThreadCSharp\obj\Debug\ExemploThreadCSharp.exe
+C:\Users\felipeaa\Desktop\New folder\ExemploThreadCSharp\ExemploThreadCSharp\obj\Debug\ExemploThreadCSharp.pdb

@@ -1,0 +1,12 @@
+﻿Você está criando uma exceção personalizada chamado LogonFailedException. quais construtores
+você deve adicionar pelo menos? (Escolha todos os que se aplicam.)
+
+A. LogonFailed ()
+B. LogonFailed (mensagem de texto)
+C. LogonFailed (mensagem String, Exception innerException)
+D. LogonFailed (Exceção innerException)
+
+A. correto: Você deve sempre adicionar um construtor padrão vazio.
+B. correto: Um segundo construtor deve levar uma mensagem descritiva de por que o erro ocorreu.
+C. correto: Um InnerException pode ser configurado para correlacionar duas exceções e mostrar o que
+o erro original.

@@ -1,0 +1,19 @@
+--- Thread ---
+IsBackground e IsForeground
+
+--async await--
+ConfigureWait(false)
+
+-- PLINQ --
+AsSequencial
+
+-- Avulso --
+	- Como fazer e consumir método com parâmetro
+	Func<>
+
+	- métodos com parâmetro 'out'
+
+	- métodos com palavra 'extern'
+
+-- Volatile
+-- Interlocked
