@@ -28,7 +28,7 @@ namespace ManageProgramFlow.ManageMultithreading.Lock
                 }
             });
 
-            //Ao inverter a ordem o comando lock, havérá um impasse, onde uma threa irá esperar a outra para prosseguir,
+            //Ao inverter a ordem o commando lock, havérá um impasse, onde uma threa irá esperar a outra para prosseguir,
             //porém, ao inverter dessa forma, nenhum dos processos irá prosseguir nunca, caindo em uma espécie de loop infinito.
             lock (lockB)
             {
