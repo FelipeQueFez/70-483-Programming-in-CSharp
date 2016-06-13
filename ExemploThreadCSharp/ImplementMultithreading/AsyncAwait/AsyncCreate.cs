@@ -32,7 +32,7 @@ namespace ManageProgramFlow.ImplementMultithreading.AsyncAwait
         private static async void FazAlgumaCoisa()
         {
             //A palavra reservada 'await' só pode ser usada quando o método estiver com a nomenclatura 'async'
-            //Este comando 'espera' 10 segundos para prosseguir imprimindo na tela o texto
+            //Este commando 'espera' 10 segundos para prosseguir imprimindo na tela o texto
             // 'FazAlgumaCoisa'            
             await Task.Delay(10000);
             Console.WriteLine("FazAlgumaCoisa");
@@ -57,7 +57,7 @@ namespace ManageProgramFlow.ImplementMultithreading.AsyncAwait
                 using (HttpClient client = new HttpClient())
                 {
                     //A palavra reservada 'await' só pode ser usada quando o método estiver com a nomenclatura 'async'
-                    //Este comando 'espera' a resposta da requisição.
+                    //Este commando 'espera' a resposta da requisição.
                     string result = await client.GetStringAsync("http://www.microsoft.com");
                     Console.WriteLine(result);
                 }

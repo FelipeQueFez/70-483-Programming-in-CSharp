@@ -14,7 +14,7 @@ namespace ManageProgramFlow.ManageMultithreading.CancellingTask
         /// </summary>
         public static void ExemploCreate()
         {
-            //Classe resposável por cancelar uma task em determinado momento quando necessário.
+            //Classe resposável por cancelar uma task em determinado memento quando necessário.
             CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
             CancellationToken token = cancellationTokenSource.Token;
 
